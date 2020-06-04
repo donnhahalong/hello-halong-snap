@@ -1,0 +1,16 @@
+name: hello-halong-snap
+version: "1.0.0"
+summary: Hello Hạ Long Snap
+description: Dọn nhà Hạ Long | Dịch vụ Phương Đông cung cấp dịch vụ vệ sinh công nghiệp, nhà sạch, dọn nhà, chuyển nhà trọn gói tại Hạ Long Quảng Ninh. Địa chỉ: 165 - tổ 31 - khu 3 - Hà Khẩu, Hạ Long, Quảng Ninh 200000, Việt Nam. Điện thoại: 098 905 54 48  -  website: https://donnhahalong.com
+confinement: strict
+
+apps:
+  hello-halong-snap:
+    command: bin/hello-halong-snap
+    plugs: [network]
+
+parts:
+  hello-halong-snap:
+    plugin: nodejs
+    node-packages:
+      - hello-halong-snap
