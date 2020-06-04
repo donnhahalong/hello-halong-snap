@@ -7,12 +7,12 @@
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dichvudonnhahalong/hello-halong-snap.git"
+    "url": "git+https://github.com/donnhahalong/hello-halong-snap.git"
   },
   "bugs": {
-    "url": "https://github.com/dichvudonnhahalong/hello-halong-snap/issues"
+    "url": "https://github.com/donnhahalong/hello-halong-snap/issues"
   },
-  "homepage": "https://github.com/dichvudonnhahalong/hello-halong-snap#readme",
+  "homepage": "https://github.com/donnhahalong/hello-halong-snap#readme",
   "bin": {
     "hello-halong-snap": "bin/hello-halong-snap"
   }
